@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>Calculator</title>
+</head>
+<body>
+   <div class="container">
+      <form action="" class="form">
+         <input class="input" readonly type="text">
+      </form>
+      <div onclick=clean() class="clean button">C</div>
+      <div onclick=back() class="back button">&larr;</div>
+      <div onclick="insert('+')" class="button">+</div>
+      <div onclick="insert('-')" class="button">-</div>
+      <div onclick="insert('*')" class="button">&times;</div>
+      <div onclick="insert('/')" class="button">&divide;</div>
+      <div onclick="insert('7')"class="button seven">7</div>
+      <div onclick="insert('8')" class="button">8</div>
+      <div onclick="insert('9')" class="button">9</div>
+      <div onclick="insert('(')" class="button">(</div>
+      <div onclick="insert('4')" class="button">4</div>
+      <div onclick="insert('5')" class="button">5</div>
+      <div onclick="insert('6')" class="button">6</div>
+      <div onclick="insert(')')" class="button">)</div>
+      <div onclick="insert('1')" class="button">1</div>
+      <div onclick="insert('2')" class="button">2</div>
+      <div onclick="insert('3')" class="button">3</div>
+      <div onclick=equal() class="equal button">=</div>
+      <div onclick="insert('0')" class="zero button">0</div>
+      <div onclick="insert('.')" class="button">.</div>
+      <div class="button sqrt">SQRT</div>
+      <div onclick="insert('**')" class="button calc">Power</div>
+      <div onclick="insert('%')" class="button rem">REM</div>
+      <div class="button desc">Made by Murad</div>
+   </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
