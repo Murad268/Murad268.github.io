@@ -1,0 +1,338 @@
+ {
+    "mass":[
+   {
+      "img": "<img src='../image/iphone.png' alt=''>",
+      "name":"Iphone",
+      "giftText": "Supppeerrr! Siz Iphone 13 pro qazandınız"
+   
+   },
+   {
+      "img": "<img src='../image/headphones.png' alt=''>",
+      "name":"Headphones",
+      "giftText": "Supppeerrr! Siz Airpods pro qazandınız"
+   },
+   {
+      "img": "<img src='../image/powerbank.png' alt=''>",
+      "name":"Powerbank",
+      "giftText": "Supppeerrr! Siz Powerbank qazandınız"
+   },
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"10.000 AZN",
+      "giftText": "Təbriklər! Siz bizdən 10.000 AZN qazandınız"
+   },
+
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"1000 AZN",
+      "giftText": "Təbriklər! Siz bizdən 1000 AZN qazandınız"
+   },
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"100 AZN",
+      "giftText": "Təbriklər! Siz bizdən 100 AZN qazandınız"
+   },
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"100 AZN",
+      "giftText": "Təbriklər! Siz bizdən 100 AZN qazandınız"
+   },
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"100 AZN",
+      "giftText": "Təbriklər! Siz bizdən 100 AZN qazandınız"
+   },
+   {
+      "img": "<img src='../image/money.png' alt=''>",
+      "name":"100 AZN",
+      "giftText": "Təbriklər! Siz bizdən 100 AZN qazandınız"
+   },
+
+
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/hedphones2.png' alt=''>",
+      "name":"Qulaqcıqlar",
+      "giftText": "Təbriklər! Siz bizdən qulaqcıq qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/usb.png' alt=''>",
+      "name":"USB",
+      "giftText": "Supppeerrr! Siz USB qazandınız"
+   },
+   {
+      "img": "<img src='../image/macbook.png' alt=''>",
+      "name":"MacBook Pro",
+      "giftText": "OOOO! Təbriklər! Siz möthəşəmsiniz bizdən MacBook Pro qazandınız"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   },
+   {
+      "img": "<img src='../image/Try_Again.png' alt=''>",
+      "name":"Bəxtinizi bir də sınayın",
+      "giftText": "Təəssüf ki, siz bizdən heç nə qazanmadınız. Bəxtinizi bir də sınayın"
+   }
+]
+}
