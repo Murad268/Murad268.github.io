@@ -1,0 +1,84 @@
+.help {
+   background-color: white;
+   &__item {
+      background: #EAF2F5;
+      border-radius: 40px;
+      &__tittle {
+         font-family: 'Khula';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 32px;
+         line-height: 30px;
+         color: #22253B;
+      }
+      &__desc {
+         font-family: 'Gilroy';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 25px;
+         color: #22253B;
+      }
+   };
+   &__wrapper {
+      padding: 91px 0 89px 0;
+      display: grid;
+      grid-gap: 30px;
+      grid-template-areas: 
+      'helps help__desc help__desc'
+      'metod metod method__desc'
+   }
+   &__help {
+      grid-area: helps;
+      padding: 41px 65px;
+      &__desc {
+         grid-area: help__desc;
+         padding: 54px 81px 49px 100px
+      }
+   }
+   &__method {
+      grid-area: metod;
+      padding: 55px 128px 55px 100px;
+      &__desc {
+         padding: 15px 71px;
+         grid-area: method__desc;
+      }
+   }
+}
+
+
+@media(max-width:992px) {
+   .help {
+      &__wrapper {
+         grid-template-areas: 
+         'helps'
+         'help__desc'
+         'metod'
+         'method__desc'
+      }
+      &__help, &__method__desc {
+         img {
+            display: block;
+            margin: 0 auto;
+         }
+      }
+   }
+}
+
+@media(max-width:589px) {
+   .help {
+      &__wrapper {
+         div {
+            padding: 20px;
+            h5 {
+               font-size: 20px;
+            }
+         }
+      }
+      &__item {
+         &__desc {
+            font-size: 12px;
+         }
+      }
+   }
+}

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicons/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+   <link rel="manifest" href="./assets/favicons/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inspiration&family=Josefin+Sans:wght@600&family=Khula:wght@300;400;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Palette+Mosaic&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Smokum&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/style.min.css">
+   <title>School of programming</title>
+</head>
+<body>
+   <nav class="navbar">
+      <div class="container">
+         <div class="navbar__wrapper">
+            <div class="navbar__links">
+               <div class="navbar__logo">
+                  <img src="./assets/images/navbar/IT-logo-8670EB0250-seeklogo.com.png" alt="">
+               </div>
+               <ul class="navbar__list">
+                  <li class="navbar__list__item"><a href="#we">Чему вы научитесь</a></li>
+                  <li class="navbar__list__item"><a href="#proccess">Процесс обучения</a></li>
+                  <li class="navbar__list__item"><a href="#help">Стоимость</a></li>
+                  <li class="navbar__list__item"><a href="#footer">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="navbar__btns">
+               <button class="navbar__btns__reg">Регистрация</button>
+               <button class="enter navbar__btns__enter">
+                  <img src="./assets/images/navbar/navbarEnterArrow.png" alt="">
+                  Войти
+               </button>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <nav class="miniNav">
+      <div class="container">
+         <div class="miniNav__wrapper">
+            <div class="navbar__logo">
+               <img src="./assets/images/navbar/IT-logo-8670EB0250-seeklogo.com.png" alt="">
+            </div>
+            <button class="enter miniNav__enter">
+               <img src="./assets/images/navbar/navbarEnterArrow.png" alt="">
+               Войти
+            </button>
+            <div class="miniNav__hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <div class="miniMenu">
+      <img class="menuExit" src="./assets/images/modal/Group 1194.png" alt="">
+      <ul>
+         <li>
+            <a href="#we">Чему вы научитесь</a>
+         </li>
+         <li>
+            <a href="#proccess">Процесс обучения</a>
+         </li>
+         <li>
+            <a href="#help">Стоимость</a>
+         </li>
+         <li>
+            <a href="#footer">Контакты</a>
+         </li>
+         <li>
+            <a href="">Регистрация</a>
+         </li>
+      </ul>
+   </div>
+   <section class="reg">
+      <div class="container">
+         <div class="reg__wrapper">
+            <div class="reg__body">
+               <h4 class="reg__tittle">
+                  Школа <span>{</span><span class="italic">программирования</span><span>}</span> для тех, кому нужны реальные навыки,
+                  а не просто сертификат
+               </h4>
+               <h5 class="reg__subtittle">
+                  Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам
+               </h5>
+               <button class="reg__btn openModal">Пройти тестирование
+                  <span>&#8599;</span>
+               </button>
+            </div>
+            <img src="./assets/images/reg/regBg.png" alt="">
+         </div>
+      </div>
+   </section>
+   <section id="we" class="we">
+      <div class="we__curve">
+         <svg width="250" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+           <path d="M 0 0 C 30 0 60 60 120 60 C 120 60 120 60 120 60 C 180 59 207 0 240 0" fill="#ECF4F8" stroke="white" stroke-width="0" scale="1" />
+         </svg>
+      </div>
+      <div class="section">
+         <div class="container">
+            <h2 class="we__tex__tittle">Какие технологии вы изучите:</h2>
+            <div class="we__tex">
+               <div class="we__tex__wrapper">
+                  <div class="we__tex__img">
+                     <img src="./assets/images/we/weBg.png" alt="">
+                  </div>
+                  <div class="we__tex__right">
+                     <div class="we__tex__btns">
+                        <button style="background-color: #5096FF; width: 311px;">Язык программирования Python</button>
+                        <button style="background-color: #FFB359; width: 89px;">Сети</button>
+                        <br>
+                        <button style="background-color: #FF6F50; width: 151pxpx;">Базы данных</button>
+                        <button style="background-color: #4BD071; width: 277px;">Фреймворки Flask и Django</button>
+                        <br>
+                        <button style="background-color: #50C0FF; width: 258px;">Отладка и тестирование</button>
+                        <button style="background-color: #4B77B9; width: 95px;">Docker</button>
+                        <button style="background-color: #AF93FF; width: 93px;">Git</button>
+                     </div>
+                     <div class="we__tex__desc">
+                        Это необходимый минимум для современного backend-разработчика
+                     </div>
+                  </div>
+                  <div class="we__tex__right ms">
+                     <div class="we__tex__btns">
+                        <button style="background-color: #5096FF;">Язык программирования Python</button>
+                        <br>
+                        <button style="background-color: #FFB359; width: 144px;">Сети</button>
+                        <button style="background-color: #FF6F50; width: 250px;">Базы данных</button>
+                        <br>
+                        <button style="background-color: #4BD071;">Фреймворки Flask и Django</button>
+                        <button style="background-color: #50C0FF;">Отладка и тестирование</button>
+                        <br>
+                        <button style="background-color: #4B77B9; width: 196px;">Docker</button>
+                        <button style="background-color: #AF93FF; width: 196px;">Git</button>
+                     </div>
+                  </div>
+                  <div class="we__tex__right rs">
+                     <div class="we__tex__btns">
+                        <button style="background-color: #5096FF; width: 100%;">Язык программирования Python</button>
+                        <br>
+                        <button style="background-color: #FFB359; width: 35%;">Сети</button>
+                        <button style="background-color: #FF6F50; width: 63%;">Базы данных</button>
+                        <br>
+                        <button style="background-color: #4BD071; width: 100%;">Фреймворки Flask и Django</button>
+                        <button style="background-color: #50C0FF; width: 100%;">Отладка и тестирование</button>
+                        <br>
+                        <button style="background-color: #4B77B9; width: 50%;">Docker</button>
+                        <button style="background-color: #AF93FF; width: 48%;">Git</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="proccess" class="we__adv">
+               <h3 class="we__adv__tittle">Обучение в YtYt – это удобно и результативно</h3>
+               <div class="we__adv__wrapper">
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/practic.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Современные методики обучения</h5>
+                     <div class="we__adv__item__desc">Более 500 самостоятельных заданий и 20 полноценных больших проектов</div>
+                  </div>
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/modernMetods.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Современные методики обучения</h5>
+                     <div class="we__adv__item__desc">Спиральное обучение: 
+                        погружаемся в материал постепенно, виток за витком</div>
+                  </div>
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/simple.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Простое и понятное изложение</h5>
+                     <div class="we__adv__item__desc">Вместо заумных терминов – примеры из реального мира</div>
+                  </div>
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/ed.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Гибкий график занятий</h5>
+                     <div class="we__adv__item__desc">Учитесь в любое время в удобном 
+                        для вас темпе</div>
+                  </div>
+               </div>
+               <div class="we__adv__wrapper2">
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/addition.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Прямая связь с опытными программистами</h5>
+                     <div class="we__adv__item__desc">Задавайте вопросы 
+                        и отправляйте свой код на проверку</div>
+                  </div>
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/pay.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Оплата небольшими частями</h5>
+                     <div class="we__adv__item__desc">Платите только за тот материал, который сейчас изучаете, 
+                        а не за весь курс сразу</div>
+                  </div>
+                  <div class="we__adv__item">
+                     <div class="we__adv__item__img">
+                        <img src="./assets/images/weAdv/return.png" alt="">
+                     </div>
+                     <h5 class="we__adv__item__tittle">Быстрый и легкий возврати</h5>
+                     <div class="we__adv__item__desc">Если передумаете учиться –
+                        вернем деньги за 3 рабочих дня</div>
+                  </div>
+               </div>
+            </div>
+            <div id="proccess" class="ms__adv">
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/practic.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Современные методики обучения</h5>
+                  <div class="we__adv__item__desc">Более 500 самостоятельных заданий и 20 полноценных больших проектов</div>
+               </div>
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/modernMetods.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Современные методики обучения</h5>
+                  <div class="we__adv__item__desc">Спиральное обучение: 
+                     погружаемся в материал постепенно, виток за витком</div>
+               </div>
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/simple.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Простое и понятное изложение</h5>
+                  <div class="we__adv__item__desc">Вместо заумных терминов – примеры из реального мира</div>
+               </div>
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/ed.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Гибкий график занятий</h5>
+                  <div class="we__adv__item__desc">Учитесь в любое время в удобном 
+                     для вас темпе</div>
+               </div>
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/addition.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Прямая связь с опытными программистами</h5>
+                  <div class="we__adv__item__desc">Задавайте вопросы 
+                     и отправляйте свой код на проверку</div>
+               </div>
+               <div class="we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/pay.png" alt="">
+                  </div>
+                  <h5 class="we__adv__item__tittle">Оплата небольшими частями</h5>
+                  <div class="we__adv__item__desc">Платите только за тот материал, который сейчас изучаете, 
+                     а не за весь курс сразу</div>
+               </div>
+               <div class="full-row we__adv__item">
+                  <div class="we__adv__item__img">
+                     <img src="./assets/images/weAdv/return.png" alt="">
+                  </div>
+                  <div>
+                     <h5 class="we__adv__item__tittle">Быстрый и легкий возврати</h5>
+                     <div class="we__adv__item__desc">Если передумаете учиться –
+                        вернем деньги за 3 рабочих дня</div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <section class="education">
+      <div class="container">
+         <div class="education__wrapper">
+            <div class="education__item">
+               <div class="education__item__count">01</div>
+               <h5 class="education__item__tittle">Весь материал разбит на небольшие уроки</h5>
+               <div class="education__item__desc">Теория и практика подаются маленькими порциями. Так вам будет легче усваивать новые знания.</div>
+            </div>
+            <div class="education__item">
+               <div class="education__item__count">02</div>
+               <h5 class="education__item__tittle">Обучение 
+                  через практику</h5>
+               <div class="education__item__desc">Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.</div>
+            </div>
+            <div class="education__item">
+               <div class="education__item__count">03</div>
+               <h5 class="education__item__tittle">Нет ограничений по времени</h5>
+               <div class="education__item__desc">Можно совмещать учёбу с работой 
+                  и другими делами. Не нужно выпрашивать академический отпуск, если пришлось сделать перерыв.</div>
+            </div>
+         </div>
+         <div class="education__btn">
+               <button class="openModal">Начать обучение
+                  <span>&#8599;</span>
+               </button>
+           <div> 
+              <p>Попробуйте, первые уроки бесплатны, но нужно пройти тестирование</p>
+           </div>
+         </div>
+      </div>
+   </section>
+   <section id="help" class="help">
+      <div class="container">
+         <div class="help__wrapper">
+            <div class="help__item help__help">
+               <img src="./assets/images/help/help.png" alt="">
+            </div>
+            <div class="help__item help__help__desc">
+               <h5 class="help__item__tittle">Помощь и поддержка</h5>
+               <div class="help__item__desc">
+                  Если в процессе обучения возникнут сложности, вы всегда сможете задать вопрос своему наставнику.
+                  <br> <br>
+                  Раз в несколько уроков вы будете получать большое задание, которое нужно будет сдавать на проверку код-ревьюеру. Он внимательно изучит ваш код, найдет ошибки и поможет вам стать лучше. 
+               </div>
+            </div>
+            <div class="help__item help__method">
+               <h5 class="help__item__tittle">Методика обучения</h5>
+               <div class="help__item__desc">
+                  Весь учебный материал структурирован по принципу «спирального обучения». Сначала вы получаете базовые знания, а затем на каждом витке спирали углубляетесь в изученные темы, доводя их понимание до совершенства. Такой подход упрощает обучение и гарантирует, что вы не пропустите ничего важного.
+               </div>
+            </div>
+            <div class="help__item help__method__desc">
+               <img src="./assets/images/help/metods.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="courses">
+      <h5 class="courses__tittle">Стоимость обучения</h5>
+      <div class="container">
+         <div class="courses__about">
+            <div class="courses__about__item">
+               <div class="courses__about__item__img">
+                  <img src="./assets/images/weAdv/ed.png" alt="">
+               </div>
+               <div class="courses__about__item__desc">
+                  Весь курс разбит на несколько блоков. Оплата поэтапная вы платите только за тот блок, который сейчас проходите.
+               </div>
+            </div>
+            <div class="courses__about__item">
+               <div class="courses__about__item__img">
+                  <img src="./assets/images/weAdv/pay.png" alt="">
+               </div>
+               <div  class="courses__about__item__desc">
+                  Любой из блоков вы можете оплатить в рассрочку
+               </div>
+            </div>
+            <div class="courses__about__item">
+               <div class="courses__about__item__img">
+                  <img src="./assets/images/weAdv/return.png" alt="">
+               </div>
+               <div class="courses__about__item__desc">
+                  Если передумаете учиться, то возврат можно оформить в любой момент. Возвращаем деньги за 3 рабочих дня.
+               </div>
+            </div>
+         </div>
+         <div class="courses__table">
+            <table class="table table-striped table-no-border">
+               <thead>
+                 <tr>
+                   <th scope="col">Блок</th>
+                   <th scope="col">Стоимость (₽)</th>
+                   <th scope="col">Расчетное время обучения (мес.) *</th>
+                 </tr>
+               </thead>
+               <tbody style="border-top: none">
+                 <tr>
+                   <td>Введение в программирование</td>
+                   <td>Бесплатно</td>
+                   <td>0.5</td>
+                 </tr>
+                 <tr>
+                   <td>Основы программирования на Python</td>
+                   <td>9 900</td>
+                   <td>1</td>
+                 </tr>
+                 <tr>
+                   <td>Python, продвинутый уровень</td>
+                   <td>14 900</td>
+                   <td>2.5</td>
+                 </tr>
+                 <tr>
+                  <td>Сети + фреймворк Flask</td>
+                  <td>14 900</td>
+                  <td>2.5</td>
+                </tr>
+                <tr>
+                  <td>Базы данных</td>
+                  <td>14 900</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Фреймворк Django</td>
+                  <td>14 900</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Разработка «боевого» проекта </td>
+                  <td>9 900</td>
+                  <td>1.5</td>
+                </tr>
+               <tfoot style="border-top: none">
+                  <tr>
+                     <td>Итого</td>
+                     <td>79 400</td>
+                     <td>12</td>
+                   </tr>
+               </tfoot>
+               </tbody>
+             </table>
+             <span>* если занятиям уделяется около 20 часов в неделю</span>
+         </div>
+         <div class="courses__reg">
+            <div class="courses__reg__img">
+               <img src="./assets/images/help/exo.png" alt="">
+            </div>
+            <div class="courses__reg__desc">Все блоки проходятся строго по порядку. Пропустить какой-то блок или начать обучение с середины нельзя, даже если вы считаете, что уже знаете какую-то часть материала. Только так мы можем гарантировать, что вы получите все знания, предусмотренные учебной программой.</div>
+            <div class="courses__reg__btn">
+               <button class="openModal">Начать обучение
+                  <span>&#8599;</span>
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer id="footer" class="footer">
+      <div class="container">
+         <div class="footer__wrapper">
+            <div class="footer__links">
+               <div class="footer__links__top">
+                  <div class="footer__links__logo">
+                     <img src="./assets/images/navbar/IT-logo-8670EB0250-seeklogo.com.png" alt="">
+                  </div>
+                  <div class="footer__links__desc">Школа программирования</div>
+               </div>
+               <div class="footer__social">
+                  <div>
+                     <a href=""><img src="./assets/images/footer/Group.png" alt=""></a>
+                  </div>
+                  <div>
+                     <a href=""><img src="./assets/images/footer/Vector.png" alt=""></a>
+                  </div>
+                  <div>
+                     <a href=""><img src="./assets/images/footer/Vector (1).png" alt=""></a>
+                  </div>
+                  <div>
+                    <a href=""><img src="./assets/images/footer/Vector (2).png" alt=""></a>
+                  </div> 
+               </div>
+            </div>
+            <div class="footer__nav">
+               <div class="footer__nav__links">
+                  <ul>
+                     <li><a href="">Чему вы научитесь</a></li>
+                     <li><a href="">Процесс обучения</a></li>
+                     <li><a href="">Стоимость</a></li>
+                     <li><a href="">Контакты</a></li>
+                     <li><a href="">Регистрация</a></li>
+                  </ul>
+               </div>
+               <div class="footer__nav__info">
+                  <div class="footer__nav__info__tel"><a href="">+7 (499) 348 93 96</a></div>
+                  <div class="footer__nav__info__mail">info@ytyt.ru</div>
+                  <div class="footer__nav__info__address">
+                     ИП Умаров Т. А. <br>
+                     ИНН 745216229809 <br>
+                     ОГРНИП 315745200001358
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="footer__bottom">
+            <div>© 2022 ytyt — Все права защищены</div>
+            <div>Пользовательское соглашение</div>
+            <div>Политика конфиденциальности</div>
+         </div>
+      </div>
+   </footer>
+   <div class="regStart__modal ">
+      <div class="regForm modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <form>
+            <div class="form-group">
+            <label for="Name">имя</label>
+            <input type="name" class="form-control" id="Name" placeholder="Name">
+            </div>
+            <div class="form-group">
+            <label for="email">почта</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            </div> 
+            <div class="form-group">
+               <label for="tel">телефон</label>
+               <input type="tel" class="form-control" id="tel" placeholder="phone">
+               </div> 
+            <div class="form-group">
+            <label for="Inputselect">специальность</label>
+            <select class="form-control" >
+            <option>фронтенд</option>
+            <option>бэкенд</option>
+            <option>искусственный интеллект</option>
+            <option>кибербезопасность</option>
+            <option>дизайн</option>
+            </select>
+            </div> 
+            <div class="form-group">
+            <label for=" Email1msg">Message:</label>
+            <!-- add text area here -->
+             
+            </div>
+            <div class="checkbox">
+            <label>
+            <input type="checkbox" id="yesno"> Yes / No
+            </label>
+            </div>
+             
+            <button type="submit" class="sendModalForm btn btn-info">Submit Information</button>
+            </form>
+      </div>
+      <div class="regStart__modal__box modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <h3 class="regStart__modal__box__tittle">
+            Перед тем, как приступить к обучению, необходимо пройти небольшой тест
+         </h3>
+         <div class="regStart__modal__box__desc">
+            Тест состоит из 4 заданий на логическое мышление и прочие навыки, необходимые программисту. Задания не самые простые. Но ни в коем случае не выбирайте ответы наугад. Если вы не можете дать правильный ответ – выбирайте пункт «Не знаю».
+         </div>
+         <button class="startTest">Начать тест</button>
+      </div>
+      <div class="regTest__modal__box modalBox">
+         <div class="regTest__modal__box__tittle">
+            ЗАДАНИЕ
+         </div>
+         <div class="regTest__modal__box__desc">
+            Иван Иванович купил в магазине у дома несколько пачек макарон по 40 рублей, несколько пачек печенья по 32 рубля и 2 пакета сока. Продавщица сказала, что с него 525 рублей (скидка не предусмотрена). Иван Иванович заявил, что его пытаются обсчитать. Действительно ли продавщица ошиблась в подсчетах?
+         </div>
+         <div class="regTest__modal__box__checkbox">
+            <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+            <ul>
+               <li>
+                  <input value="first" id="fistAnswer" type="radio" name="test" id="">
+                  <label for="fistAnswer">Да, сумма явно неверная</label>
+               </li>
+               <li>
+                  <input value="second" id="secondAnswer" type="radio" name="test" id="">
+                  <label for="secondAnswer">Нет, такая сумма вполне могла получиться</label>
+               </li>
+               <li>
+                  <input value="third" id="thirdAnswer"  type="radio" name="test" id="">
+                  <label for="thirdAnswer">Не знаю, не получается решить</label>
+               </li>
+            </ul>
+            <button class="answerBtn">Ответить</button>
+         </div>
+      </div>
+
+      <div class="trueAnswer__modal__box modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <div class="regTest__modal__box__tittle">
+            ЗАДАНИЕ
+         </div>
+         <div class="trueAnswer__modal__box__result">Правильно! С логикой у вас все отлично</div>
+         <div class="trueAnswer__modal__box__desc">
+            Так как 1 пачка макарон стоит 40 рублей, то любое количество пачек будет стоить четное число рублей. Аналогично с печеньем. А так как пакетов сока ровно 2, то за сок тоже нужно будет отдать четное число рублей. Получается, что ни при каких условиях в результате не может получиться нечетное число 525, а значит, продавщица действительно пыталась обсчитать Ивана Ивановича.
+            <br><br>
+            В этом задании проверялось ваше логическое мышление. Это критически важный навык для любого программиста.
+            Это великолепный результат! У вас есть все шансы стать отличным программистом. Начните обучение прямо сейчас, доступ ко вводным урокам уже открыт
+         </div>
+         <button  class="trueAnswer__modal__box__btn">
+            Далее
+         </button>
+      </div>
+
+      <div class="falseAnswer__modal__box modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <div class="regTest__modal__box__tittle">
+            ЗАДАНИЕ
+         </div>
+         <div class="falseAnswer__modal__box__result">
+            Хм. Это будет немного сложно. Но мы можем! С нами будет проще.
+         </div>
+         <button  class="falseAnswer__modal__box__btn">
+            Далее
+         </button>
+      </div>
+
+      <div class="startCourse__modal modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <div class="startCourse__modal__desc">
+            Что бы это ни было, вы сможете! Определенно! Продолжайте с нами
+         </div>
+         <button class="startCourse__modal__btn">Начать учиться бесплатно</button>
+
+
+        
+      </div>
+      <div class="sendSucces__modal modalBox">
+         <img class="modalExit" src="./assets/images/modal/Group 1194.png" alt="">
+         <img class="success" src="./assets/images/modal/photoeditorsdk-export__1_-removebg-preview.png" alt="">
+         <div>На ваш запрос будет дан ответ в ближайшее время</div>
+      </div>
+   </div>
+
+
+</div>
+
+<section class="vh-100 registrationModal" style="background-color: #eee;">
+   <div class="container h-100">
+     <div class="row d-flex justify-content-center align-items-center h-100">
+       <div class="registrationBox col-lg-12 col-xl-11">
+         <div class="registrationBox card text-black" style="border-radius: 25px;">
+         <img class="registrationExit" src="./assets/images/modal/Group 1194.png" alt="">
+           <div class="card-body p-md-5">
+             <div class="row justify-content-center">
+               <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+ 
+                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Регистрация</p>
+ 
+                 <form class="mx-1 mx-md-4">
+ 
+                   <div class="d-flex flex-row align-items-center mb-4">
+                     <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                     <div class="form-outline flex-fill mb-0">
+                       <input type="text" id="form3Example1c" class="form-control" />
+                       <label class="form-label" for="form3Example1c">Ваше Имя</label>
+                     </div>
+                   </div>
+ 
+                   <div class="d-flex flex-row align-items-center mb-4">
+                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                     <div class="form-outline flex-fill mb-0">
+                       <input type="email" id="form3Example3c" class="form-control" />
+                       <label class="form-label" for="form3Example3c">Ваша Почта</label>
+                     </div>
+                   </div>
+ 
+                   <div class="d-flex flex-row align-items-center mb-4">
+                     <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                     <div class="form-outline flex-fill mb-0">
+                       <input type="password" id="form3Example4c" class="form-control" />
+                       <label class="form-label" for="form3Example4c">Пароль</label>
+                     </div>
+                   </div>
+ 
+                   <div class="d-flex flex-row align-items-center mb-4">
+                     <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                     <div class="form-outline flex-fill mb-0">
+                       <input type="password" id="form3Example4cd" class="form-control" />
+                       <label class="form-label" for="form3Example4cd">Повторите свой пароль</label>
+                     </div>
+                   </div>
+ 
+                   <div class="form-check d-flex justify-content-center mb-5">
+                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                     <label class="form-check-label" for="form2Example3">
+                        Я согласен со всеми утверждениями в <a href="#!">Условиях использования</a>
+                     </label>
+                   </div>
+ 
+                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                     <button type="button" class="registerBtn btn btn-primary btn-lg">Зарегистрироваться</button>
+                   </div>
+ 
+                 </form>
+ 
+               </div>
+               <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+ 
+                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                   class="img-fluid" alt="Sample image">
+ 
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <section class="signIn vh-100" style="background-color: #9A616D;">
+   <img src="./assets/images/modal/Group 1194.png" alt="" class="signInExit">
+   <div class="container py-5 h-100">
+     <div class="row d-flex justify-content-center align-items-center h-100">
+       <div class="col col-xl-10">
+         <div class="card" style="border-radius: 1rem;">
+           <div class="row g-0">
+             <div class="signInModalBox col-md-6 col-lg-5 d-none d-md-block">
+               
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                 alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+             </div>
+             <div class="col-md-6 col-lg-7 d-flex align-items-center">
+               <div class="card-body p-4 p-lg-5 text-black">
+ 
+                 <form>
+ 
+                   <div class="d-flex align-items-center mb-3 pb-1">
+                     <img class="modalLogo" src="./assets/images/navbar/IT-logo-8670EB0250-seeklogo.com.png" alt="">
+                    
+                   </div>
+ 
+                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+ 
+                   <div class="form-outline mb-4">
+                     <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                     <label class="form-label" for="form2Example17">Email address</label>
+                   </div>
+ 
+                   <div class="form-outline mb-4">
+                     <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                     <label class="form-label" for="form2Example27">Password</label>
+                   </div>
+ 
+                   <div class="pt-1 mb-4">
+                     <button class="logInBtn btn btn-dark btn-lg btn-block" type="button">Login</button>
+                   </div>
+ 
+                   <a class="small text-muted" href="#!">Forgot password?</a>
+                   <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                       style="color: #393f81;">Register here</a></p>
+                   <a href="#!" class="small text-muted">Terms of use.</a>
+                   <a href="#!" class="small text-muted">Privacy policy</a>
+                 </form>
+ 
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script type="module" src="./js/script.js"></script>
+</body>
+</html>
