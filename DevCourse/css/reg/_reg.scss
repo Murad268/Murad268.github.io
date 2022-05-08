@@ -80,6 +80,11 @@
    }
 }
 @media(max-width: 459px) {
+   .openModal {
+      span {
+         display: none;
+      }
+   }
    .reg {
       &__body {
          width: 100%;
@@ -97,9 +102,6 @@
       }
       &__btn {
          width: 259px;
-         span {
-            right: 15px;
-         }
       }
    }
 }
