@@ -1,5 +1,4 @@
 .navbar {
-   margin-top: 12px;
    padding: 5px 0 5px 0;
    background: #FFFFFF;
    &__wrapper {
@@ -71,6 +70,7 @@
    }
 }
 .miniNav {
+   padding-top: 20px;
    display: none;
 }
 
