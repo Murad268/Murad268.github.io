@@ -81,6 +81,10 @@
 }
 @media(max-width: 459px) {
    .openModal {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       span {
          display: none;
       }
