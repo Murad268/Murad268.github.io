@@ -131,6 +131,7 @@
 }
 
 @media(max-width: 572px) {
+  
    .education {
       &__btn {
          width: 100%;
@@ -141,6 +142,20 @@
             margin: 0 auto;
             text-align: center;
          }
+      }
+   }
+}
+
+
+@media(max-width: 459px) {
+   .education {
+      &__btn {
+        button {
+           padding: 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
       }
    }
 }
