@@ -1,0 +1,78 @@
+.contactUs {
+   padding: 55px 0 47px 0;
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 567px 366px;
+      width: max-content;
+      margin: 0 auto;
+      justify-content: space-between;
+   }
+   &__form {
+      &__tittle {
+         font-family: 'Russo One';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 36px;
+         line-height: 43px;
+         color: #F1F1F1;
+         margin-bottom: 50px;
+      }
+      form {
+         input {
+            display: block;
+            width: 402px;
+            height: 51px;
+            background: #FFFFFF;
+            border: 1px solid #DEDEDE;
+            box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            margin-bottom: 24px;
+            padding-left: 18px;
+         }
+         textarea {
+            width: 402px;
+            height: 112px;
+            background: #FFFFFF;
+            border: 1px solid #DEDEDE;
+            box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            padding: 17px 0 0 18px;
+         }
+         button {
+            width: 220px;
+            height: 47px;
+            background: #2194FF;
+            border-radius: 50px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #F1F1F1;
+            margin-top: 24px;
+         }
+      }
+   }
+   &__footer {
+      display: grid;
+      grid-template-columns: repeat(6, 166px);
+      column-gap: 16px;
+      margin: 59px 0 0 90px;
+      width: max-content;
+      &__item {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background: #F1F1F1;
+         border-radius: 20px;
+         height: 66px;
+      }
+   }
+   &__img {
+      img {
+         width: 100%;
+         object-fit: fill;
+      }
+   }
+}
