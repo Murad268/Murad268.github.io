@@ -15,6 +15,55 @@
          "downloadLink": "./assets/cer/pdf/Практический JavaScript (Продвинутый уровень).pdf"
       },
       {  
+         "id": 28,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 29,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 30,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 31,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 32,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen 'React 101' eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen React 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen React 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 33,
+         "name": "Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 34,
+         "name": "Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
          "id": 3,
          "name": "Веб разработка - с нуля до профессионала. Full Stack",
          "category": "web",
@@ -184,7 +233,7 @@
       },
       {  
          "id": 27,
-         "name": "Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə keçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə",
+         "name": "Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə",
          "category": "social",
          "src": "./assets/cer/png/Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə.jpeg",
          "downloadLink": "./assets/cer/pdf/Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə.pdf"
