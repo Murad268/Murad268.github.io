@@ -1,0 +1,59 @@
+.navbar {
+   padding: 18px 0 32px 0;
+   &__wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+   }
+   &__logo {
+      width: 420px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      &__img {
+         width: 269px;
+         position: relative;
+         img {
+            width: 100%;
+            object-fit: fill;
+         }
+      }
+      &__img::before {
+         content: '';
+         display: block;
+         width: 1px;
+         height: 30px;
+         background: white;
+         position: absolute;
+         top: 27px;
+         right: -24px;
+      } 
+      div {
+         font-family: 'Open Sans';
+         font-style: italic;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 18px;
+         color: #2194FF;
+         width: 189px;
+      }
+   }
+   &__link.tel a {
+      font-family: 'Russo One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: #F1F1F1;
+   }
+   &__link.question a{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-decoration-line: underline;
+      color: #2194FF; 
+   }
+   }

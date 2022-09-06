@@ -1,0 +1,83 @@
+.advantages {
+   padding-top: 57px;
+   &__tittle {
+      font-family: 'Russo One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      color: #F1F1F1;
+      margin-bottom: 66px;
+   }
+   &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 340px);
+      margin: 0 auto;
+      width: max-content;
+      align-items: end;
+   }
+   &__column {
+      &__img {
+         margin: 0 auto;
+         width: max-content;
+      }
+      &__tittle {
+         font-family: 'Russo One';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 29px;
+         text-align: center;
+         color: #2194FF;
+         margin: 8px auto 0 auto;
+         width: 80%;
+      }
+      &__subtittle {
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 16px;
+         line-height: 22px;
+         text-align: center;
+         color: #F1F1F1;
+         margin: 14px auto 0 auto;
+         width: 85%;
+      }
+    
+   }
+   &__footer {
+      margin-top: 40px;
+      &__wrapper {
+         display: flex;
+      }
+      &__desc {
+        p {
+         font-family: 'Russo One';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 35px;
+         line-height: 42px;
+         color: #F1F1F1;
+         width: 533px;
+         span {
+            color:#2194FF
+         }
+        }
+        div {
+         width: 100%;
+         height: 35px;
+         background: #2194FF;    
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 800;
+         font-size: 14px;
+         line-height: 19px;
+         color: #F1F1F1;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        }
+      }
+   }
+}

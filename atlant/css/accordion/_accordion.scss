@@ -1,0 +1,80 @@
+.acc {
+   padding: 37px 0 40px 0;
+   background: #2C3237;
+   &__tittle {
+      font-family: 'Russo One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      color: #2194FF;
+      margin-bottom: 27px;
+   }
+}
+.accordion {
+   position: relative;
+   border-top: 1px solid rgba(221, 221, 221, 0.5);
+   border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem; 
+   &__title {
+      display: flex;
+      gap: 1em;
+      position: relative;
+      padding: 1.25rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #F1F1F1;
+      margin-bottom: 0;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+      &::after {
+         flex-shrink: 0;
+         content: "";
+         position: relative;
+         display: inline-block;
+         margin-left: auto;
+         transform-origin: center;
+         transform: rotate(45deg);
+         transition: all 0.3s ease-in-out;
+         width: 0.65em;
+         height: 0.65em;
+         border-bottom: 0.125rem solid #fff;
+         border-right: 0.125rem solid #fff;
+      }
+      &:hover {
+         color: #2194FF;
+      }
+   }
+   &__inner {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+   }
+   &__content {
+      padding: 0 1.25rem 1.25rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+      color: #F1F1F1;
+   }
+   &__opened &__title::after {
+      transform: translateY(25%) rotate(135deg);
+   }
+   &__opened &__title {
+      color: #2194FF;
+   }
+ }
+
+ 
+ .accordion + .accordion {
+   border-top: none;
+ }
+ 
