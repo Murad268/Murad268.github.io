@@ -1,0 +1,112 @@
+.reg {
+   padding: 70px 0 100px 0;
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   &__body {
+      width: 638px;
+   }
+   &__tittle {
+      font-family: 'Khula';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 46px;
+      line-height: 46px;
+      color: #22253B;
+      margin-bottom: 45.53px;
+      span {
+         color: #F15525
+      }
+      .italic {
+         font-style: italic;
+         color: #22253B;
+      }
+   }
+   &__subtittle {
+      width: 365px;
+      font-family: 'Khula';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      color: #22253B;
+      margin-bottom: 18.47px;
+   }
+   &__btn {
+      width: 321px;
+      height: 70px;
+      background: #F15525;
+      border-radius: 82px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 96.69%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #FFFFFF;
+      padding-left: 45px;
+      position: relative;
+      border: none;
+      span {
+         position: absolute;
+         top: 25px;
+         right: 50px;
+      }
+   }
+}
+
+@media(max-width: 1200px) {
+   .reg {
+      &__body {
+         width: max-content;
+         margin: 0 auto;
+         text-align: center;
+      }
+      &__subtittle {
+         margin: 27px auto 21px auto;
+      }
+      &__btn {
+         margin: 0 auto 63px auto;
+      }
+      img {
+         display: block;
+         margin: 0 auto;
+      }
+   }
+}
+@media(max-width: 459px) {
+   .openModal {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+         display: none;
+      }
+   }
+   .reg {
+      &__body {
+         width: 100%;
+      }
+      &__tittle {
+         font-size: 25px;
+         line-height: 20px;
+      }
+      &__subtittle {
+         width: 100%;
+      }
+      img {
+         width: 100%;
+         object-fit: fill;
+      }
+      &__btn {
+         width: 259px;
+      }
+   }
+}
+

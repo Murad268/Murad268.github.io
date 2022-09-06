@@ -1,0 +1,17 @@
+@import './navbar/navbar';
+@import './reg/reg';
+@import './we/we';
+@import './education/education';
+@import './help/help';
+@import './courses/courses';
+@import './footer/footer';
+@import './modal/modalStart';
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   // border: 1px solid red;
+}
+body {
+   background-color: #ECF4F8;
+}
