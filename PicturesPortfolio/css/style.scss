@@ -1,0 +1,33 @@
+@import './reset/reset';
+@import './header/header';
+@import './sendDesign/sendDesign';
+@import './popular/popular';
+@import './art/art';
+@import './calculator/calculator';
+@import './portfolio/portfolio';
+@import './gift/gift';
+@import './whyWe/whyWe';
+@import './sizes/sizes';
+@import './progress/progress';
+@import './frame/frame';
+@import './load/load';
+@import './review/review';
+@import './questions/questions';
+@import './consultation/consultation';
+@import './footer/footer';
+@import './modal/modal';
+@import './calculate/calculate';
+@import './navbar/navbar';
+* {
+   font-family: 'Circe Regular', sans-serif;
+}
+body {
+   background-color: white;
+}
+.gift {
+   position: fixed;
+   top: 60px;
+   right: 10px;
+   z-index: 16;
+   cursor: pointer;
+}

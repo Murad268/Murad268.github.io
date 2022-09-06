@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+   <link rel="manifest" href="/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="./css/style.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <title>Картины.art</title>
+</head>
+<body>
+   <img  class="gift" src="./assets/images/gift.png" alt="">
+   <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+         <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <div class="navbar__left">
+                  Мы можем все
+               </div>
+              <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Картина из вашего фото
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Фотомозаика</a></li>
+                    <li><a class="dropdown-item" href="#">Шарж по фото</a></li>
+                    <li><a class="dropdown-item" href="#">Love is...</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Готовые картины
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Готовые картины</a></li>
+                    <li><a class="dropdown-item" href="#">Живопись</a></li>
+                    <li><a class="dropdown-item" href="#">Коллаж</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Идеи подарков
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Идеи подарков</a></li>
+                    <li><a class="dropdown-item" href="#">Идеи подарков</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Покупателям
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Покупателям</a></li>
+                    <li><a class="dropdown-item" href="#">Доставка и оплата</a></li>
+                    <li><a class="dropdown-item" href="#">Схема работы</a></li>
+                    <li><a class="dropdown-item" href="#">Контакты</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <button class="navbar__button btn-design">
+               Заказать 
+               <span>&#8594;</span>
+            </button>
+            </div>
+          </div>
+      </div>
+    </nav>
+   <header class="header">
+      <div class="container">
+         <div class="header__wrapper">
+            <div class="header__left">
+               <span>Картины.art</span>
+               <p>Преврати фотографию в настоящую картину!</p>
+            </div>
+            <div class="header__right">
+               <div class="header__send">
+                  <label for="sendHaeder">
+                     <i class="fas fa-camera"></i>
+                     Загрузить фотографию
+                  </label>
+                  <input id="sendHaeder" type="file" name="" id="">
+                  <div class="header__mail">E-mail: <a href="mailto:info@kartiny.art">info@kartiny.art</a></div> 
+               </div>
+               <div class="header__contacts">
+                  <div class="tel">
+                     <img src="./assets/images/header/Без_названия__2_-removebg-preview.png" alt="">
+                     8 800 234-23-34
+                  </div>
+                  <div class="wp">
+                     <img src="./assets/images/header/Без_названия-removebg-preview.png" alt="">
+                     <img src="./assets/images/header/Без_названия__1_-removebg-preview.png" alt="">
+                     +7 495 234-23-34
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header__adver">
+            <div class="header__adver__slides">
+               <div class="header__adver__slider__inner">
+                  <div class="header__adver__slide">
+                     <img src="./assets/images/header/slider/main-1.png" alt="">
+                  </div>
+                  <div class="header__adver__slide">
+                     <img src="./assets/images/header/slider/main-2.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="header__adver__about">
+                  <h3 class="header__adver__about__subtitle">Лучший подарок для всех</h3>
+                  <h2 class="header__adver__about__title">Портрет на холсте</h2>
+                  <div class="header__adver__about__advens">
+                     <div class="header__adver__about__adven">Гарантия минимальной цены</div>
+                     <div class="header__adver__about__adven">При заказе с сайта скидки до 30%!</div>
+                     <div class="header__adver__about__adven">На 30% дешевле конкурентов</div>
+                     <div class="header__adver__about__adven">Срочное изготовление за 3 часа!</div>
+                  </div>
+                  <div class="header__adver__about__alert">Отправьте фото сейчас и получите дизайн через 1 час</div>
+                  <button class="header__adver__about__btn btn-design">Заказать портрет</button>
+                  <div class="header__adver__about__btn__arrow">
+                     <img src="./assets/images/header/slider/button-arrow.png" alt="">
+                  </div>
+            </div>
+         </div>  
+      </div>
+   </header>
+   <section class="sendDesign">
+      <div class="container">
+         <div class="sendDesign__wrapper">
+            <div class="sendDesign__img">
+               <img src="./assets/images/sendDesign/promo-1.png" alt="">
+            </div>
+            <div class="sendDesign__send">
+               <h5 class="sendDesign__send__subtitle">Просто отправьте фото и</h5>
+               <h3 class="sendDesign__send__title">Мы пришлем вам дизайн бесплатно в течение 1 часа!</h3>
+               <button class="sendDesign__send__btn btn-design">Заказать дизайн портрета</button>
+               <div class="sendDesign__palette">
+                  <img src="./assets/images/sendDesign/palette.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="popular">
+      <div class="container">
+         <h5 class="popular__subtitle">
+            Портрет на холсте
+         </h5>
+         <h3 class="popular__title">
+            Популярные стили рисунка
+         </h3>
+         <div class="popular__wrapper">
+            <div class="popular__item">
+               <div class="popular__item__img">
+                  <img src="./assets/images/popular/styles-1.jpg" alt="">
+               </div>
+               <div class="popular__item__desc">
+                  Маслом
+               </div>
+               <div class="popular__item__more">
+                  <a href="">Подробнее</a>
+               </div>
+            </div>
+            <div class="popular__item">
+               <div class="popular__item__img">
+                  <img src="./assets/images/popular/styles-2.jpg" alt="">
+               </div>
+               <div class="popular__item__desc">
+                  Акварелью
+               </div>
+               <div class="popular__item__more">
+                  <a href="">Подробнее</a>
+               </div>
+            </div>
+            <div class="popular__item">
+               <div class="popular__item__img">
+                  <img src="./assets/images/popular/styles-3.jpg" alt="">
+               </div>
+               <div class="popular__item__desc">
+                  Карандашом
+               </div>
+               <div class="popular__item__more">
+                  <a href="">Подробнее</a>
+               </div>
+            </div>
+            <div class="popular__item">
+               <div class="popular__item__img">
+                  <img src="./assets/images/popular/styles-4.jpg" alt="">
+               </div>
+               <div class="popular__item__desc">
+                  Ручкой
+               </div>
+               <div class="popular__item__more">
+                  <a href="">Подробнее</a>
+               </div>
+            </div>
+         </div>
+         <img src="./assets/images/spinner/spinner.gif" alt="" class="load__spinner">
+         <button class="popular__btn">
+            <img src="./assets/images/popular/reload.svg" alt="">
+            Посмотреть больше стилей
+         </button>
+      </div>
+   </section>
+   <section class="art">
+      <div class="container">
+         <div class="art__wrapper">
+            <div class="art__img">
+               <img src="./assets/images/art/card-1.png" alt="">
+            </div>
+            <div class="art__desc">
+               <h2 class="art__desc__title">
+                  Потрясающий портрет флип-флап в стиле поп арт
+               </h2>
+               <div class="art__desc__desc">
+                  Вы подарите яркие эмоции, запомнится надолго!
+               </div>
+               <button class="art__desc__btn btn-consultation btn-consultation">
+                  Подробнее об услуге
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="calculator">
+      <div class="container">
+         <h5 class="calculator__subtitle">
+            Калькулятор
+         </h5>
+         <h2 class="calculator__title">
+            Рассчитайте стоимость и получите скидку 30%
+         </h2>
+         <div class="calculator__wrapper">
+            <div class="calculator__calc">
+               <div class="calculator__calc__title">Загрузите свое фото</div>
+               <form action="#">
+                  <label for="sendPictureCalc">
+                     <i class="fas fa-camera"></i>
+                     Загрузить фотографию
+                  </label>
+                  <input id="sendPictureCalc" type="file" class="calculator__calc__fileSend">
+                  <select class="calculator__calc__file size">
+                     <option value="0">Выберите размер картины</option>
+							<option value="500">40x50</option>
+							<option value="1000">50x70</option>
+							<option value="1500">70x70</option>
+							<option value="2000">70x100</option>
+                  </select>
+                  <select class="calculator__calc__file material">
+                     <option value="0">Выберите материал картины</option>
+							<option value="1"  title="Изящный, позволяет легко создавать текстуру, подходит для декоративных картин маслом.">Холст из волокна</option>
+							<option value="1.2"  title="Достаточно грубый и создает ощущение реальности, подходит для классических пейзажей, натюрмортов и портретов.">Льняной холст</option>
+							<option value="1.5" title="Изящный, подходит для всех типов реалистичных портретов.">Холст из натурального хлопка</option>
+						</select>
+                  </select>
+                  <select class="calculator__calc__file adServices">
+                     <option value="0">Дополнительные услуги</option>
+							<option value="1000">Покрытие арт-гелем</option>
+							<option value="2000">Экспресс-изготовление</option>
+							<option value="500">Доставка готовых работ </option>
+                  </select>
+                  <input type="text" class="promocode" placeholder="Введите ваш промокод">
+                  <div class="calculator__calc__result result">
+                     <p>Для расчета нужно выбрать размер картины и материал картины</p>
+                  </div>
+                  <button class="calculator__calc__btn">
+                     Быстрый заказ
+                  </button>
+               </form>
+         </div>
+         <div class="calculator__img">
+            <img src="./assets/images/calc/calc-1.png" alt="">
+            <p>
+               Пропорциональный размер изображения рассчитывается автоматически. Если Вы хотите кадрировать изображение или просто узнать стоимость желаемого размера картины, снимите галочку с поля «Пропорциональный»
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="portfolio">
+         <h4 class="portfolio__subtitle">
+            Примеры работ
+         </h4>
+         <h2 class="portfolio__title">Для кого делаем портрет?</h2>
+         <div class="portfolio__tabs">
+            <div class="portfolio__tab allBtn active">Все работы</div>
+            <div class="portfolio__tab loveBtn">Для влюбленных</div>
+            <div class="portfolio__tab forBossBtn">Для шефа</div>
+            <div class="portfolio__tab forGirlsBtn">Для девушки</div>
+            <div class="portfolio__tab forBoysBtn">Для парня</div>
+            <div class="portfolio__tab forGranmaBtn">Для бабушки</div>
+            <div class="portfolio__tab forGranpaBtn">Для дедушки</div>
+         </div>
+         <img src="./assets/images/spinner/spinner.gif" alt="" class="portfolio__snipper">
+         <div class="portfolio__contents">
+            <div class="portfolio__content forGirls">
+               <img src="./assets/images/portfolio/portfolio-1.jpg" alt="">
+            </div>
+            <div class="portfolio__content forGirls">
+               <img src="./assets/images/portfolio/portfolio-2.jpg" alt="">
+            </div>
+            <div class="portfolio__content love">
+               <img src="./assets/images/portfolio/portfolio-3.jpg" alt="">
+            </div>
+            <div class="portfolio__content forBoss">
+               <img src="./assets/images/portfolio/portfolio-4.jpg" alt="">
+            </div>
+            <div class="portfolio__content forBoys">
+               <img src="./assets/images/portfolio/portfolio-5.jpg" alt="">
+            </div>
+            <div class="portfolio__content love">
+               <img src="./assets/images/portfolio/portfolio-6.jpg" alt="">
+            </div>
+            <div class="portfolio__content love">
+               <img src="./assets/images/portfolio/portfolio-7.jpg" alt="">
+            </div>
+            <div class="portfolio__content forGirls">
+               <img src="./assets/images/portfolio/portfolio-8.jpg" alt="">
+            </div>
+            <div class="portfolio__content forGirls">
+               <img src="./assets/images/portfolio/portfolio-9.jpg" alt="">
+            </div>
+            <div class="portfolio__content forBoys">
+               <img src="./assets/images/portfolio/portfolio-10.jpg" alt="">
+            </div>
+         </div>
+         <div class="portfolio__empty">
+            Таких портретов мы еще не делали, хотите быть первыми?
+         </div>
+   </section>
+   <section class="giftPage">
+      <div class="container">
+         <div class="giftPage__wrapper">
+            <div class="giftPage__desc">
+               <h3 class="giftPage__desc__subtitle">Портрет по фото</h3>
+               <h3 class="giftPage__desc__title">Лучший подарок для всех!</h3>
+               <div class="giftPage__desc__desc">
+                  Портрет по фотографии изготовляется на высококачественном холсте, поэтому не беспокойтесь за сохранность своего подарка! Такой приятный презент отлично впишется в интерьерю
+               </div>
+               <div class="giftPage__desc__wrapper">
+                  <div class="giftPage__desc__wrapper__item">
+                     <img src="./assets/images/gift/gift-1.png" alt="">
+                     <p>Подарок со вкусом</p>
+                  </div>
+                  <div class="giftPage__desc__wrapper__item">
+                     <img src="./assets/images/gift/gift-2.png" alt="">
+                     <p>Всегда будет в тренде</p>
+                  </div>
+                  <div class="giftPage__desc__wrapper__item">
+                     <img src="./assets/images/gift/gift-3.png" alt="">
+                     <p>Все будут в восторге</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="whyWe">
+      <div class="container">
+         <h5 class="whyWe__subtitle">
+            Наши преимущества
+         </h5>
+         <h2 class="whyWe__title">
+            Почему выбирают именно нас?
+         </h2>
+      <div class="whyWe__wrapper">
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-1.png" alt="">
+            <p>Натуральный холст и лучшие краски</p>
+         </div>
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-2.png" alt="">
+            <p>Гарантия минимальной цены</p>
+         </div>
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-3.png" alt="">
+            <p>Большой выбор декоративных рамок</p>
+         </div>
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-4.png" alt="">
+            <p>Рисуют профессиональные художники</p>
+         </div>
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-5.png" alt="">
+            <p>Защита от старения до 70 лет</p>
+         </div>
+         <div class="whyWe__item">
+            <img src="./assets/images/whyWe/features-6.png" alt="">
+            <p>Доставка в любую точку мира</p>
+         </div>
+      </div>
+      </div>
+   </section>
+   <section class="sizes">
+      <div class="container">
+         <h5 class="sizes__subtitle">
+            Популярные размеры и цены
+         </h5>
+         <h3 class="sizes__title">
+            Можем изготовить картину любого размера!
+         </h3>
+         <div class="sizes__wrapper">
+            <div class="sizes__item">
+               <div class="size">40x50</div>
+               <img src="./assets/images/sizes/sizes-1.png" class="sizes__item__img" alt="">
+               <div class="sizes__price">
+                  <div class="sizes__price__old">5 290 руб</div>
+                  <div class="sizes__price__new">3 670 руб.</div>
+               </div>
+            </div>
+            <div class="sizes__item">
+               <div class="size">50x70</div>
+               <img src="./assets/images/sizes/sizes-2.png" class="sizes__item__img" alt="">
+               <div class="sizes__price">
+                  <div class="sizes__price__old">5 290 руб</div>
+                  <div class="sizes__price__new">3 670 руб.</div>
+               </div>
+            </div>
+            <div class="sizes__item">
+               <div class="size">70x70</div>
+               <img src="./assets/images/sizes/sizes-3.png" class="sizes__item__img" alt="">
+               <div class="sizes__price">
+                  <div class="sizes__price__old">5 290 руб</div>
+                  <div class="sizes__price__new">3 670 руб.</div>
+               </div>
+               <div class="hit">
+                  Хит продаж
+               </div>
+            </div>
+            <div class="sizes__item">
+               <div class="size">70x100</div>
+               <img src="./assets/images/sizes/sizes-4.png" class="sizes__item__img" alt="">
+               <div class="sizes__price">
+                  <div class="sizes__price__old">5 290 руб</div>
+                  <div class="sizes__price__new">3 670 руб.</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="progressSec">
+      <div class="container">
+         <h5 class="progressSec__subtitle">
+            Как мы будем с вами работать
+         </h5>
+         <h2 class="progressSec__title">
+            Процесс изготовления картины
+         </h2>
+        <div class="progressSec__wrapper">
+           <div class="progressSec__item">
+              <img src="./assets/images/progress/scheme-1.png" alt="">
+              <p>Присылаете фотографию и свои пожелания</p>
+           </div>
+           <div class="progressSec__item">
+            <img src="./assets/images/progress/scheme-2.png" alt="">
+            <p>Мы готовим варианты дизайна с учётом ваших требований</p>
+         </div>
+         <div class="progressSec__item">
+            <img src="./assets/images/progress/scheme-3.png" alt="">
+            <p>Вы утверждаете макет и художник приступает к работе</p>
+         </div>
+         <div class="progressSec__item">
+            <img src="./assets/images/progress/scheme-4.png" alt="">
+            <p>Выбираете вариант багетной рамы и оформления</p>
+         </div>
+         <div class="progressSec__item">
+            <img src="./assets/images/progress/scheme-5.png" alt="">
+            <p>Согласовываются адрес и удобное время доставки</p>
+         </div>
+         <div class="progressSec__item">
+            <img src="./assets/images/progress/scheme-6.png" alt="">
+            <p>Вы платите оставшуюся сумму курьеру при получении картины</p>
+         </div>
+        </div>
+      </div>
+   </section>
+   <section class="frame">
+      <div class="container">
+         <div class="frame__wrapper">
+            <div class="frame__img">
+               <img src="./assets/images/frame/card-2.jpg" alt="">
+            </div>
+            <div class="frame__desc">
+               <h3 class="frame__desc__title">Оформление в багетные рамы</h3>
+               <div class="frame__desc__desc">
+                  Мы можем предложить вам оформление в любую раму из огромного ассортимента по желанию.
+               </div>
+               <button class="frame__desc__btn btn-consultation">Подробнее об услуге</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="frame frame2">
+      <div class="container">
+         <div class="frame__wrapper">
+            <div class="frame__desc">
+               <h3 class="frame__desc__title">Заказать портрет маслом у портретиста</h3>
+               <div class="frame__desc__desc">
+                  Эксклюзивно, качественно, детальная ручная прорисовка.
+               </div>
+               <button class="frame__desc__btn btn-consultation">Подробнее об услуге</button>
+            </div>
+            <div class="frame__img">
+               <img src="./assets/images/frame/card-3.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="load">
+      <div class="container">
+         <div class="load__wrapper">
+            <div class="load__desc">
+               <div class="load__desc__subtitle">
+                  Не нашли, что искали?
+               </div>
+               <div class="load__desc__title">
+                  Загрузите наш каталог с 50 вариантами стиля бесплатно!
+               </div>
+               <button class="load__btn">
+                  Загрузить каталог
+               </button>
+            </div>
+            <div class="load__img">
+               <img src="./assets/images/load/promo-2.png" alt="">
+            </div>  
+         </div>
+      </div>
+   </section>
+   <section class="review">
+      <div class="review__wrapper">
+         <div class="review__prev">‹</div>
+         <div class="review__next">›</div>
+         <div class="review__inner">
+            <div class="review__slide">
+               <div class="review__slide__img">
+                  <img src="./assets/images/review/feedback-1.png" alt="">
+                  <button class="btn-design">Хочу так же</button>
+               </div>
+               <div class="review__slide__desc">
+                  <div class="review__slide__desc__title">
+                     «...Получил я именно то, о чем мечтал, причем прямо с доставкой на дом!...»
+                  </div>
+                  <div class="review__slide__desc__desc">
+                     Я живу в небольшом поселке и для меня заказать портрет было целым подвигом! Пристал наши с супругой фото и попросил сделать несколько макетов на выбор. К моему удивлению, очень скоро мне прислали не просто несколько, а целых 15 разных макетов! Я выбрал самый лучший и оформил заказ.
+                     <br>
+                     <br>
+                     <b>Олег Петров,</b> д. Месягутово
+                  </div>
+               </div>
+            </div>
+            <div class="review__slide">
+               <div class="review__slide__img">
+                  <img src="./assets/images/review/feedback-2.jpg" alt="">
+                  <button class="btn-design">Хочу так же</button>
+               </div>
+               <div class="review__slide__desc">
+                  <div class="review__slide__desc__title">
+                     «...Я в восторге! Не думала, что портрет может быть настолько красивым!...»
+                  </div>
+                  <div class="review__slide__desc__desc">
+                     Подруге муж подарил портрет, и мне тоже захотелось заказать. Из всех макетов этот сразу запал в душу! И отлично вписывется в интерьер моей гостинной. Теперь он висит тут на почетном месте, и я каждый раз любую им. Всем моим родным тоже очень понравился!
+                     <br>
+                     <br>
+                     <b>Ирина Антонова,</b> г. Кисловодск
+                  </div>
+               </div>
+            </div>
+            <div class="review__slide">
+               <div class="review__slide__img">
+                  <img src="./assets/images/review/feedback-3.jpg" alt="">
+                  <button class="btn-design">Хочу так же</button>
+               </div>
+               <div class="review__slide__desc">
+                  <div class="review__slide__desc__title">
+                     «...Неожиданный подарок на день рождения от друзей...»
+                  </div>
+                  <div class="review__slide__desc__desc">
+                     Хочу поделиться впечатлениями от полученного вчера подарка. Классная работа, выполненная, натуральными красками! Я как человек педантичный, люблю мелочи, для меня они очень важны, и здесь они прикольно сделаны – часы нарисовали, свитерок мой любимый, маечка с резиночкой. Очень позитивный шарж, сделанный по моей фотографии.
+                     <br>
+                     <br>
+                     <b>Нарек Маргаров,</b> г. Великие Луки
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="questions">
+      <div class="container">
+         <img class="questions__bg" src="./assets/images/questions/spirt.png" alt="">
+         <h5 class="questions__subtitle">Часто задаваемые вопросы</h5>
+         <h2 class="questions__title">
+            Ответим на любой из ваших вопросов</h2>
+         <img src="./assets/images/questions/brushes.png" alt="" class="questions__brushes">
+         <div class="accordion">
+            <div class="accordion__question">Сколько времени нужно для изготовления заказа?</div>
+            <div class="accordion__answer">
+               <div id="triangle-up"></div>
+               Время выполнения заказа зависит от трех факторов: сложности картины, стиля написания и размера. Среднее время выполнения заказа составляет 7 дней без учета времени на доставку. В ряде случаев по желанию заказчика можно уменьшить срок до 5 дней.
+               <br>
+               <br>
+               Примечание: Если Вы решите что-то изменить в картине, внести коррективы - это может занять дополнительное время, которое не учитывается при оговоренном сроке выполнения.
+            </div>
+            <div class="accordion__question">Смогу ли я увидеть картину до ее получения?</div>
+            <div class="accordion__answer">
+               <div id="triangle-up"></div>
+               Да. По готовности, мы отправляем по электронной почте цифровое фото Вашей картины, для того, чтобы Вы смогли, при необходимости внести свои корректировки и пожелания, если таковые будут. Вы также сможете увидеть картину "вживую" в нашем салоне. Сообщите об этом Вашему менеджеру.
+            </div>
+            <div class="accordion__question">Какого формата должны быть фотографии</div>
+            <div class="accordion__answer">
+               <div id="triangle-up"></div>
+               Мы работаем со всеми известными форматами изображений! Через сайт вы можете загрузить JPEG, TIFF, PNG размером до 50 мегабайт. Вы должны обладать авторскими правами или иметь разрешение на использование изображения. Если у Вас другой формат изображения (RAW, PDF), то вы можете воспользоваться FTP загрузчиком. Если вы хотите сделать фото из бумажной фотографии (не цифровой), пришлите его нам, мы отсканируем, обработаем и вернем фото вместе с вашим заказом!
+            </div>
+            <div class="accordion__question">Могу ли я дать особые указания художнику?</div>
+            <div class="accordion__answer">
+               <div id="triangle-up"></div>
+               Когда вы размещаете свой заказ на сайте, вы можете добавить свои комментарии в специальном текстовом поле. Вы также можете: объединить объекты с разных фото в одно или удалить объекты с фото, можете поменять задний фон, поменять одежду, наряды, сделать цветную картину с черно-белого фото, а также заказать картину с поврежденного или старого фото.
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="frame3">
+      <div class="frame3__wrapper">
+         <div class="frame3__img">
+            <img src="./assets/images/frame/promo-3.png" alt="">
+         </div>
+         <div class="frame3__desc">
+            <h5 class="frame3__desc__subtitle">
+               Просто отправьте фото и
+            </h5>
+            <h2 class="frame3__desc__title">
+               Мы пришлем вам дизайн бесплатно в течение 1 часа!
+            </h2>
+            <button class="frame3__desc__btn btn-design">
+               Заказать дизайн портрета
+            </button>
+         </div>
+      </div>
+   </section>
+   <section class="consultation">
+      <div class="container">
+         <div class="h5 consultation__subtitle">
+            Остались вопросы?
+         </div>
+         <div class="consultation__title">
+            Получите консультацию художника!
+         </div>
+         <form action="" class="consultation__form">
+            <div class="consultation__form__wrapper">
+               <input required name="name" type="text" placeholder="Ваше имя">
+               <input required name="phone" type="phone" placeholder="Ваш телефон">
+               <input required name="email" type="e-mail" placeholder="Ваш E-mail">
+               <textarea placeholder="Задайте вопрос здесь"></textarea>
+            </div>
+            <button class="consultation__btn">Получить котсултацию</button>
+         </form>
+      </div>
+   </section>
+<div class="container my-5">
+     <section class="">
+       <div class="container text-center text-md-start mt-5">
+         <!-- Grid row -->
+         <div class="row mt-3">
+           <!-- Grid column -->
+           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+               <h6 class="text-uppercase fw-bold">Портрет на холсте</h6>
+               <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+               <p>
+                  <a href="#!" class="text-dark">Поп-арт</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Живопись</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Коллаж</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Портрет в образе</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Фотомозаика</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Портрет маслом</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Шарж по фото</a>
+               </p>
+               <p>
+                  <a href="#!" class="text-dark">Love is...</a>
+               </p>
+          </div>
+           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold">Идеи подарков</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p>
+               <a href="#!" class="text-dark">Готовые картины</a>
+             </p>
+             <p>
+               <a href="#!" class="text-dark">	Интерьерные постеры</a>
+             </p>
+           </div>
+           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold">Покупателям</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p>
+               <a href="#!" class="text-dark">Срочное изготовление</a>
+             </p>
+             <p>
+               <a href="#!" class="text-dark">Доставка и оплата</a>
+             </p>
+             <p>
+               <a href="#!" class="text-dark">Схема работы</a>
+             </p>
+             <p>
+               <a href="#!" class="text-dark">Контакты</a>
+             </p>
+           </div>
+           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold">Контакты</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p>8 800 234-23-34</p>
+             <p>+7 495 234-23-34</p>
+             <p>Круглосуточно, без выходных
+                <br>
+                E-mail: <a href="">info@kartiny.art</a>
+             </p>
+           </div>
+         </div>
+       </div>
+     </section>
+   </footer>
+ </div>
+ <div class="modal__consultation">
+    <div class="modal__consultation__block">
+       <img src="./assets/images/modal/icons8-close-64.png" alt="" class="modal__close">
+       <div class="modal__consultation__block__title">
+         Остались вопросы? Закажите обратный звонок
+       </div>
+       <form action="" class="modal__consultation__block__form">
+         <input required name="name" type="text" placeholder="Ваше имя">
+         <input required name="phone" type="phone" placeholder="Ваш телефон">
+          <button>
+             Получить консултацию
+          </button>
+       </form>
+    </div>
+ </div>
+ <div class="modal__gift">
+    <div class="modal__gift__block">
+      <img src="./assets/images/modal/icons8-close-64.png" alt="" class="modal__close">
+       <div class="modal__gift__block__title">
+         У нас для вас есть подарок!
+       </div>
+       <img src="./assets/images/gift.png" alt="" class="modal__gift__block__img">
+       <div class="modal__gift__block__desc">
+         Введите промо-код IWANTPOPART и получите скидку 30% на портрет любого размера в стиле pop-art!
+       </div>
+    </div>
+ </div>
+ <div class="modal__design">
+    <div class="modal__design__block">
+      <img src="./assets/images/modal/icons8-close-64.png" alt="" class="modal__close">
+       <div class="modal__design__block__title">
+         Заказать дизайн портрета
+       </div>
+       <form action="" class="modal__design__form">
+          <label for="for__desinger">
+             <i class="fas fa-camera"></i>
+            Загрузить фотографию</label>
+          <input id="for__desinger" type="file">
+          <input required name="name" type="text" placeholder="Ваше имя">
+          <input required name="phone" type="phone" placeholder="Ваш телефон">
+          <input required type="e-mail" placeholder="Ваш e-mail">
+          <input data-validate-field="comment" name="comment" type="text" placeholder="Коментарий">
+          <button>Отправить дизайнеру</button>
+       </form>
+    </div>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+   <script src="./js/jquery.mask.min.js"></script>
+   <script type="module" src="./js/script.js"></script>
+</body>
+</html>
