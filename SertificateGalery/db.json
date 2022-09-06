@@ -1,0 +1,242 @@
+{
+   "certificates": [
+      {  
+         "id": 1,
+         "name": "'Dünya şöhrətli yazıçı Den Braunun əsərlərinin nəşri, yayımı və tənqidi' mövzusunda apardığı elmi araşdırmaya görə",
+         "category": "editor",
+         "src": "./assets/cer/png/Dünya şöhrətli yazıçı Den Braunun əsərlərinin nəşri, yayımı və tənqidi mövzusunda apardığı elmi araşdırmaya görə.jpeg",
+         "downloadLink": "./assets/cer/pdf/Dünya şöhrətli yazıçı Den Braunun əsərlərinin nəşri, yayımı və tənqidi mövzusunda apardığı elmi araşdırmaya görə.pdf"
+      },
+      {  
+         "id": 2,
+         "name": "Практический JavaScript (Продвинутый уровень)",
+         "category": "web",
+         "src": "./assets/cer/png/Практический JavaScript (Продвинутый уровень).jpg",
+         "downloadLink": "./assets/cer/pdf/Практический JavaScript (Продвинутый уровень).pdf"
+      },
+      {  
+         "id": 28,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 29,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 30,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 31,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 302 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 32,
+         "name": "Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen 'React 101' eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen React 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen React 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 33,
+         "name": "Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 16 Temmuz 2022 tarihinde gerçekleştirilen React 201 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 34,
+         "name": "Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır.",
+         "category": "web",
+         "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
+         "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 17 Temmuz 2022 tarihinde gerçekleştirilen React 301 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 3,
+         "name": "Веб разработка - с нуля до профессионала. Full Stack",
+         "category": "web",
+         "src": "./assets/cer/png/Веб разработка - с нуля до профессионала. Full Stack.jpg",
+         "downloadLink": "./assets/cer/pdf/Веб разработка - с нуля до профессионала. Full Stack.pdf"
+      },
+      {  
+         "id": 4,
+         "name": "React Redux Toolkit complete guide",
+         "category": "web",
+         "src": "./assets/cer/png/React Redux Toolkit complete guide.jpg",
+         "downloadLink": "./assets/cer/pdf/React Redux Toolkit complete guide.pdf"
+      },
+      {  
+         "id": 5,
+         "name": "React JS. Практический Курс 2020 (вкл. Хуки, Классы, Redux)",
+         "category": "web",
+         "src": "./assets/cer/png/React JS. Практический Курс 2020 (вкл. Хуки, Классы, Redux).jpg",
+         "downloadLink": "./assets/cer/pdf/React JS. Практический Курс 2020 (вкл. Хуки, Классы, Redux).pdf"
+      },
+      {  
+         "id": 6,
+         "name": "Complete Modern JavaScript Firebase BootCamp the beginner",
+         "category": "web",
+         "src": "./assets/cer/png/Complete Modern JavaScript Firebase BootCamp the beginner.jpg",
+         "downloadLink": "./assets/cer/pdf/Complete Modern JavaScript Firebase BootCamp the beginner.pdf"
+      },
+      {  
+         "id": 7,
+         "name": "Learn JavaScript from Scratch The Ultimate Beginners Course",
+         "category": "web",
+         "src": "./assets/cer/png/Learn JavaScript from Scratch The Ultimate Beginners Course.jpg",
+         "downloadLink": "./assets/cer/pdf/Learn JavaScript from Scratch The Ultimate Beginners Course.pdf"
+      },
+      {  
+         "id": 8,
+         "name": "Internet and Web Development Fundamentals",
+         "category": "web",
+         "src": "./assets/cer/png/Internet and Web Development Fundamentals.jpg",
+         "downloadLink": "./assets/cer/pdf/Internet and Web Development Fundamentals.pdf"
+      },
+      {  
+         "id": 9,
+         "name": "Temel Düzeyde HTML ve HTML5 Eğitimi",
+         "category": "web",
+         "src": "./assets/cer/png/Temel Düzeyde HTML ve HTML5 Eğitimi.jpg",
+         "downloadLink": "./assets/cer/pdf/Temel Düzeyde HTML ve HTML5 Eğitimi.pdf"
+      },
+      {  
+         "id": 10,
+         "name": "Sıfırdan Kodlama Eğitimi ile Programcılığın Mantığını Öğren",
+         "category": "it",
+         "src": "./assets/cer/png/Sıfırdan Kodlama Eğitimi ile Programcılığın Mantığını Öğren.jpg",
+         "downloadLink": "./assets/cer/pdf/Sıfırdan Kodlama Eğitimi ile Programcılığın Mantığını Öğren.pdf"
+      }
+      ,  {  
+         "id": 11,
+         "name": "ÖZEL SİSTEM UZMANLIĞI + IP Adresleri ve Bilgisayar Ağları",
+         "category": "sys",
+         "src": "./assets/cer/png/ÖZEL SİSTEM UZMANLIĞI + IP Adresleri ve Bilgisayar Ağları.jpg",
+         "downloadLink": "./assets/cer/pdf/ÖZEL SİSTEM UZMANLIĞI + IP Adresleri ve Bilgisayar Ağları.pdf"
+      }
+      ,  {  
+         "id": 12,
+         "name": "Temelden İleri Seviyeye CSS Eğitimi",
+         "category": "web",
+         "src": "./assets/cer/png/Temelden İleri Seviyeye CSS Eğitimi.jpg",
+         "downloadLink": "./assets/cer/pdf/Temelden İleri Seviyeye CSS Eğitimi.pdf"
+      }
+      ,  {  
+         "id": 13,
+         "name": "The Complete CSS course",
+         "category": "web",
+         "src": "./assets/cer/png/The Complete CSS course.jpg",
+         "downloadLink": "./assets/cer/pdf/The Complete CSS course.pdf"
+      }
+      ,  {  
+         "id": 14,
+         "name": "The Complete HTML5 Course From Beginning to Expert",
+         "category": "web",
+         "src": "./assets/cer/png/The Complete HTML5 Course From Beginning to Expert.jpg",
+         "downloadLink": "./assets/cer/pdf/The Complete HTML5 Course From Beginning to Expert.pdf"
+      },
+      {  
+         "id": 15,
+         "name": "Прошел бесплатный курс Профессия SMM-менеджер и выполнил все практические задания",
+         "category": "smm",
+         "src": "./assets/cer/png/Прошел бесплатный курс Профессия SMM-менеджер и выполнил все практические задания.png",
+         "downloadLink": "./assets/cer/pdf/Прошел бесплатный курс Профессия SMM-менеджер и выполнил все практические задания.pdf"
+      },
+      {  
+         "id": 16,
+         "name": "Git with Visual Studio Code",
+         "category": "web",
+         "src": "./assets/cer/png/Git with Visual Studio Code.jpg",
+         "downloadLink": "./assets/cer/pdf/Git with Visual Studio Code.pdf"
+      },
+      {  
+         "id": 17,
+         "name": "İleri Bilgisayar İşletmenliği Kursu  2022",
+         "category": "cmp",
+         "src": "./assets/cer/png/İleri Bilgisayar İşletmenliği Kursu  2022 .jpg",
+         "downloadLink": "./assets/cer/pdf/İleri Bilgisayar İşletmenliği Kursu  2022.pdf"
+      },
+      {  
+         "id": 18,
+         "name": "CSS3 Ultimate Guide 2022",
+         "category": "web",
+         "src": "./assets/cer/png/CSS3 Ultimate Guide 2022.jpg",
+         "downloadLink": "./assets/cer/pdf/CSS3 Ultimate Guide 2022.pdf"
+      },
+      {  
+         "id": 19,
+         "name": "Microsoft Excel Ultimate Guide 2022",
+         "category": "mco",
+         "src": "./assets/cer/png/Microsoft Excel Ultimate Guide 2022.jpg",
+         "downloadLink": "./assets/cer/pdf/Microsoft Excel Ultimate Guide 2022.pdf"
+      },
+      {  
+         "id": 20,
+         "name": "Javascript For Beginners Complete Course",
+         "category": "web",
+         "src": "./assets/cer/png/Javascript For Beginners Complete Course.jpg",
+         "downloadLink": "./assets/cer/pdf/Javascript For Beginners Complete Course.pdf"
+      },
+      {  
+         "id": 21,
+         "name": "Bootstrap Yeni Başlayanlar İçin - Hızlı ve Kolay",
+         "category": "web",
+         "src": "./assets/cer/png/Bootstrap Yeni Başlayanlar İçin - Hızlı ve Kolay.jpg",
+         "downloadLink": "./assets/cer/pdf/Bootstrap Yeni Başlayanlar İçin - Hızlı ve Kolay.pdf"
+      },
+      {  
+         "id": 22,
+         "name": "Bootstrap 4.0 ile Front-end Web Sitesi Eğitimi",
+         "category": "web",
+         "src": "./assets/cer/png/Bootstrap 4.0 ile Front-end Web Sitesi Eğitimi.jpg",
+         "downloadLink": "./assets/cer/pdf/Bootstrap 4.0 ile Front-end Web Sitesi Eğitimi.pdf"
+      },
+      {  
+         "id": 23,
+         "name": "Bilgisayar Öğretmeninden Microsoft OFFİCE 2016 Kursu  2021",
+         "category": "mco",
+         "src": "./assets/cer/png/Bilgisayar Öğretmeninden Microsoft OFFİCE 2016 Kursu  2021.jpg",
+         "downloadLink": "./assets/cer/pdf/Bilgisayar Öğretmeninden Microsoft OFFİCE 2016 Kursu  2021.pdf"
+      },
+      {  
+         "id": 24,
+         "name": "Qmb Biologiya Departamenti tərəfindən təşkil olunmuş Sosiallaşma və adamtasiya problemləri adlı təlimdə iştirakına görə",
+         "category": "social",
+         "src": "./assets/cer/png/Qmb Biologiya Departamenti tərəfindən təşkil olunmuş Sosiallaşma və adamtasiya problemləri adlı təlimdə iştirakına görə.jpg",
+         "downloadLink": "./assets/cer/pdf/Qmb Biologiya Departamenti tərəfindən təşkil olunmuş Sosiallaşma və adamtasiya problemləri adlı təlimdə iştirakına görə.pdf"
+      },
+      {  
+         "id": 25,
+         "name": "Microsoft Excel",
+         "category": "mco",
+         "src": "./assets/cer/png/Microsoft Excel.jpg",
+         "downloadLink": "./assets/cer/pdf/Microsoft Excel.pdf"
+      },
+      {  
+         "id": 26,
+         "name": "Qafqaz Maarif Birliyinin rəsmi informaiya Agentliyi Turazşorgun təşkilatçılığı ilə keçirilən Xaricdə təhsilin üstünlükləri adlı seminarda iştirak etdiyinə görə",
+         "category": "social",
+         "src": "./assets/cer/png/Qafqaz Maarif Birliyinin rəsmi informaiya Agentliyi Turazşorgun təşkilatçılığı ilə keçirilən Xaricdə təhsilin üstünlükləri adlı seminarda iştirak etdiyinə görə.png",
+         "downloadLink": "./assets/cer/pdf/Qafqaz Maarif Birliyinin rəsmi informaiya Agentliyi Turazşorgun təşkilatçılığı ilə keçirilən Xaricdə təhsilin üstünlükləri adlı seminarda iştirak etdiyinə görə.pdf"
+      },
+      {  
+         "id": 27,
+         "name": "Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə",
+         "category": "social",
+         "src": "./assets/cer/png/Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə.jpeg",
+         "downloadLink": "./assets/cer/pdf/Bioloqlar birliyi klubu və Binəqədi Gənclər evinin təşkilatçılığı ilə leçirilən Orqanizmi hərəkətə gətirən gizli qüvvələr adlı seminarda iştirak etdiyinə görə.pdf"
+      }
+   ]
+}
