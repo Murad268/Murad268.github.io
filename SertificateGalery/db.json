@@ -1,6 +1,13 @@
 {
    "certificates": [
       {  
+         "id": 27,
+         "name": "php-BTK akademi",
+         "category": "web",
+         "src": "./assets/cer/png/php.jpg",
+         "downloadLink": "./assets/cer/pdf/PHP_Sertifika.pdf"
+      },
+      {  
          "id": 1,
          "name": "'Dünya şöhrətli yazıçı Den Braunun əsərlərinin nəşri, yayımı və tənqidi' mövzusunda apardığı elmi araşdırmaya görə",
          "category": "editor",
@@ -13,6 +20,13 @@
          "category": "web",
          "src": "./assets/cer/png/Практический JavaScript (Продвинутый уровень).jpg",
          "downloadLink": "./assets/cer/pdf/Практический JavaScript (Продвинутый уровень).pdf"
+      },
+      {  
+         "id": 270,
+         "name": "Sıfırdan irəli səviyyəyə Laravel 8 dərsləri",
+         "category": "web",
+         "src": "./assets/cer/png/UC-80657963-d31b-4787-b551-83ea6f5914f3.png",
+         "downloadLink": "./assets/cer/pdf/UC-80657963-d31b-4787-b551-83ea6f5914f3.pdf"
       },
       {  
          "id": 28,
