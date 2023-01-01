@@ -1,8 +1,29 @@
 {
    "certificates": [
       {  
+         "id": 219,
+         "name": "'JAVASCRIPT' çevrim içi kursunu tamamladığına və imtahandan uğurla keçdiyinə görə",
+         "category": "web",
+         "src": "./assets/cer/png/jquerry-btk.jpg",
+         "downloadLink": "./assets/cer/pdf/JAVASCRIPT_Sertifika.pdf"
+      },
+      {  
+         "id": 218,
+         "name": "'jQuery ile Web Programcılığı' çevrim içi kursunu tamamladığına və imtahandan uğurla keçdiyinə görə",
+         "category": "web",
+         "src": "./assets/cer/png/jquerry-btk.jpg",
+         "downloadLink": "./assets/cer/pdf/jQuery_ile_Web_Programc_l____Sertifika.pdf"
+      },
+      {  
+         "id": 217,
+         "name": "'REACT İle Web Programcılığı' çevrim içi kursunu tamamladığına və imtahandan uğurla keçdiyinə görə",
+         "category": "web",
+         "src": "./assets/cer/png/react-btk.jpg",
+         "downloadLink": "./assets/cer/pdf/REACT__le_Web_Programc_l____Sertifika.pdf"
+      },
+      {  
          "id": 27,
-         "name": "php-BTK akademi",
+         "name": "'PHP' çevrim içi kursunu tamamladığına və imtahandan uğurla keçdiyinə görə",
          "category": "web",
          "src": "./assets/cer/png/php.jpg",
          "downloadLink": "./assets/cer/pdf/PHP_Sertifika.pdf"
@@ -48,6 +69,13 @@
          "category": "web",
          "src": "./assets/cer/png/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..png",
          "downloadLink": "./assets/cer/pdf/Geleceği Yazanlar projesi kapsamında, 15 Temmuz 2022 tarihinde gerçekleştirilen Web Programlama 101 eğitim programını başarıyla tamamlayarak bu belgeyi almaya hak kazanmıştır..pdf"
+      },
+      {  
+         "id": 300,
+         "name": "'Bilgi Teknolojilerine Giriş' çevrim içi kursunu tamamladığına görə",
+         "category": "it",
+         "src": "./assets/cer/png/bilgi-btk.jpg",
+         "downloadLink": "./assets/cer/pdf/Bilgi_Teknolojilerine_Giri__Sertifika.pdf"
       },
       {  
          "id": 31,
